@@ -221,3 +221,36 @@ tests/
 
 1_Readme.md
 code_Save.py
+
+# Virtual Environment
+mcp_agent/
+.venv/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+
+# Build Files
+dist/
+build/
+
+# Local Storage Files
+app/storage/*.json
+
+# Logs
+*.log
+
