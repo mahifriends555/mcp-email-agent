@@ -1,0 +1,16 @@
+[
+  {
+    "application_id": "app_1779113347",
+    "company": "OpenAI",
+    "job_title": "AI Engineer",
+    "skills": [
+      "Python",
+      "openAI inference",
+      "LLM systems"
+    ],
+    "recipient_email": "hr@test.com",
+    "generated_email": "Subject: Application for AI Engineer Position at OpenAI\n\nDear Hiring Manager,\n\nI am writing to express my interest in the AI Engineer position at OpenAI. With a strong background in Python and experience in openAI inference and LLM systems, I am confident in my ability to contribute effectively to your team.\n\nI am excited about the opportunity to work with cutting-edge AI technology at OpenAI and am eager to bring my skills and expertise to the role. I believe that my background and strengths align well with the requirements of the position.\n\nThank you for considering my application. I look forward to the possibility of discussing my qualifications further.\n\nSincerely,\n\n[Your Name]",
+    "status": "pending",
+    "timestamp": "2026-05-18T19:39:07.862283"
+  }
+]
