@@ -1,24 +1,27 @@
 from fastapi import FastAPI
-from app.models.job_models import JobRequest
 
-# Create FastAPI application
+from app.models.job_models import JobRequest
+from app.services.parser_service import parse_job_description
+
 app = FastAPI()
 
 
-# Health check endpoint
 @app.get("/health")
 def health_check():
+
     return {
         "status": "running"
     }
 
 
-# Parse job endpoint
 @app.post("/parse-job")
 def parse_job(request: JobRequest):
 
+    parsed_data = parse_job_description(
+        request.job_description
+    )
+
     return {
-        "message": "Job received successfully",
-        "job_description": request.job_description,
+        "parsed_data": parsed_data,
         "recipient_email": request.recipient_email
     }

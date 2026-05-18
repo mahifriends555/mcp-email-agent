@@ -1,0 +1,12 @@
+
+Extract the following details from the job description.
+
+Return ONLY valid JSON.
+
+Fields:
+- company
+- job_title
+- skills
+
+Job Description:
+{job_description}
