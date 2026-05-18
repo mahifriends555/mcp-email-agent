@@ -1,0 +1,18 @@
+
+Write a professional short and concise job application email.
+
+Job Title:
+{job_title}
+
+Company:
+{company}
+
+Skills:
+{skills}
+
+Requirements:
+- Professional tone
+- Short and concise
+- Show interest in the role
+- Mention relevant strengths
+

@@ -1,0 +1,36 @@
+==============================================================================================================
+PROJECT STRUCTURE: mcp-email-agent
+GENERATED: 2026-05-18 16:08:48
+==============================================================================================================
+
+mcp-email-agent/
+├── app/
+│   ├── config/
+│   │   └── settings.py
+│   ├── models/
+│   │   └── job_models.py
+│   ├── prompts/
+│   │   ├── email_prompt.txt
+│   │   └── extraction_prompt.txt
+│   ├── routers/
+│   │   └── application_router.py
+│   ├── services/
+│   │   ├── drive_service.py
+│   │   ├── email_service.py
+│   │   ├── parser_service.py
+│   │   └── sheets_service.py
+│   ├── storage/
+│   │   └── applications.json
+│   ├── utils/
+│   │   └── helpers.py
+│   └── main.py
+├── .env
+├── .gitignore
+├── 1_code.txt
+├── 1_Readme.md
+├── 2_project_structure.txt
+├── LICENSE
+├── main.py
+├── pyproject.toml
+├── README.md
+└── uv.lock
